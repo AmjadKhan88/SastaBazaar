@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce contact</title>
+    <link rel="stylesheet" href="../css/global.css">
+</head>
+
+<body>
+    <!-- navbar don't change this  -->
+    <div id="target-header"></div>
+
+
+    <!-- write your code here  -->
+    <!-- main content -->
+    <h1>contact page</h1>
+
+
+    <!-- footer don't change this  -->
+    <div id="target-footer"></div>
+    <script src="../js/global.js"></script>
+    <script>
+        fetch('../components/navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('target-header').innerHTML = data;
+                setupNavbarEvents();
+            })
+            .catch(error => console.error('Error loading HTML:', error));
+        fetch('../components/footer.html').then(response => response.text()).then(data => {
+            document.getElementById('target-footer').innerHTML = data;
+        })
+    </script>
+</body>
+
+</html>
