@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Document</title>
     <link rel="stylesheet" href="css/global.css">
 </head>
@@ -12,12 +14,1026 @@
 
     <div id="target-header"></div>
 
-    
+
+
+    <!-- hero section  -->
+    <section class="max-w-[1188px] mx-auto grid grid-cols-12 px-2 gap-6">
+        <aside class="hidden lg:block col-span-2 border-r px-4 mt-5">
+            <ul class="space-y-1 text-[12px]">
+                <li
+                    class="flex justify-between items-center cursor-pointer hover:text-red-600 transition-colors duration-200 pt-2 pb-1">
+                    <span>Woman's Fashion</span>
+                    <span class="text-gray-800">›</span>
+                </li>
+                <li
+                    class="flex justify-between items-center cursor-pointer hover:text-red-600 transition-colors duration-200 py-1 ">
+                    <span>Men's Fashion</span>
+                    <span class="text-gray-800">›</span>
+                </li>
+                <li
+                    class="flex justify-between items-center cursor-pointer hover:text-red-600 transition-colors duration-200 py-1">
+                    <span>Electronics</span>
+                </li>
+                <li
+                    class="flex justify-between items-center cursor-pointer hover:text-red-600 transition-colors duration-200 py-1 ">
+                    <span>Home & Lifestyle</span>
+                </li>
+                <li
+                    class="flex justify-between items-center cursor-pointer hover:text-red-600 transition-colors duration-200 py-1 ">
+                    <span>Medicine</span>
+                </li>
+                <li
+                    class="flex justify-between items-center cursor-pointer hover:text-red-600 transition-colors duration-200 py-1">
+                    <span>Sports & Outdoor</span>
+                </li>
+                <li
+                    class="flex justify-between items-center cursor-pointer hover:text-red-600 transition-colors duration-200 py-1">
+                    <span>Baby's & Toys</span>
+                </li>
+                <li
+                    class="flex justify-between items-center cursor-pointer hover:text-red-600 transition-colors duration-200 py-1">
+                    <span>Groceries & Pets</span>
+                </li>
+                <li
+                    class="flex justify-between items-center cursor-pointer hover:text-red-600 transition-colors duration-200 py-1">
+                    <span>Health & Beauty</span>
+                </li>
+            </ul>
+        </aside>
+        <div class="col-span-12 lg:col-span-10 mt-5">
+            <section class="splide " aria-labelledby="carousel-heading">
+                <div class="splide__track">
+                    <ul class="splide__list">
+
+                        <!-- Slide 1 -->
+                        <li class="splide__slide relative bg-black h-[344px] rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&auto=format&fit=crop"
+                                alt="iPhone 14" class="absolute inset-0 w-full h-full object-cover opacity-80" />
+                            <div class="absolute inset-0 bg-black/30"></div>
+                            <div
+                                class="absolute inset-0 flex flex-col justify-center items-start px-8 md:px-16 text-white z-10">
+                                <span
+                                    class="text-sm font-light tracking-wider uppercase bg-white/20 px-3 py-1 rounded-full mb-4">New
+                                    Arrival</span>
+                                <h2 class="text-4xl md:text-6xl font-bold leading-tight">iPhone 14 Series</h2>
+                                <div class="mt-2 flex items-center gap-3">
+                                    <span class="text-2xl font-semibold">Up to 10%</span>
+                                    <span class="bg-red-500 text-white text-sm px-3 py-1 rounded-full">off
+                                        Voucher</span>
+                                </div>
+                                <button
+                                    class="mt-6 group flex items-center gap-2 text-lg font-medium border-b-2 border-white pb-1 hover:border-blue-400 transition-colors">
+                                    Shop Now
+                                    <span class="group-hover:translate-x-1 transition-transform">→</span>
+                                </button>
+                            </div>
+                        </li>
+
+                        <!-- Slide 2 -->
+                        <li class="splide__slide relative bg-black h-[344px] rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1498049794561-7780e7231661?w=800&auto=format&fit=crop"
+                                alt="Laptop" class="absolute inset-0 w-full h-full object-cover opacity-80" />
+                            <div class="absolute inset-0 bg-black/30"></div>
+                            <div
+                                class="absolute inset-0 flex flex-col justify-center items-start px-8 md:px-16 text-white z-10">
+                                <span
+                                    class="text-sm font-light tracking-wider uppercase bg-white/20 px-3 py-1 rounded-full mb-4">Best
+                                    Seller</span>
+                                <h2 class="text-4xl md:text-6xl font-bold leading-tight">MacBook Pro</h2>
+                                <div class="mt-2 flex items-center gap-3">
+                                    <span class="text-2xl font-semibold">Save $200</span>
+                                    <span class="bg-green-500 text-white text-sm px-3 py-1 rounded-full">limited
+                                        time</span>
+                                </div>
+                                <button
+                                    class="mt-6 group flex items-center gap-2 text-lg font-medium border-b-2 border-white pb-1 hover:border-blue-400 transition-colors">
+                                    Shop Now
+                                    <span class="group-hover:translate-x-1 transition-transform">→</span>
+                                </button>
+                            </div>
+                        </li>
+
+                        <!-- Slide 3 -->
+                        <li class="splide__slide relative bg-black h-[344px] rounded-lg overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&auto=format&fit=crop"
+                                alt="Watch" class="absolute inset-0 w-full h-full object-cover opacity-80" />
+                            <div class="absolute inset-0 bg-black/30"></div>
+                            <div
+                                class="absolute inset-0 flex flex-col justify-center items-start px-8 md:px-16 text-white z-10">
+                                <span
+                                    class="text-sm font-light tracking-wider uppercase bg-white/20 px-3 py-1 rounded-full mb-4">Smart
+                                    Deal</span>
+                                <h2 class="text-4xl md:text-6xl font-bold leading-tight">Apple Watch</h2>
+                                <div class="mt-2 flex items-center gap-3">
+                                    <span class="text-2xl font-semibold">From $249</span>
+                                    <span class="bg-yellow-500 text-black text-sm px-3 py-1 rounded-full">new
+                                        season</span>
+                                </div>
+                                <button
+                                    class="mt-6 group flex items-center gap-2 text-lg font-medium border-b-2 border-white pb-1 hover:border-blue-400 transition-colors">
+                                    Shop Now
+                                    <span class="group-hover:translate-x-1 transition-transform">→</span>
+                                </button>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+    </section>
+
+    <!-- flash sale  -->
+    <section class="max-w-[1188px] mx-auto px-4 py-10 mt-[70px]">
+        <p class="text-red-500 text-lg font-semibold">
+            <span class="bg-red-500 px-1">|</span>
+            Today’s
+        </p>
+        <div class="flex items-center justify-between mb-6">
+            <div>
+
+                <h2 class="text-3xl font-semibold mt-3 text-shadow text-shadow-black-900/90">Flash Sales</h2>
+            </div>
+
+            <div class="hidden sm:flex items-center justify-center gap-4 text-center">
+
+                <div>
+                    <p class="text-xl">Days</p>
+                    <span class=" text-3xl font-bold">07</span>
+                </div>
+                <span class="font-bold text-4xl text-red-500"> : </span>
+                <div>
+                    <p class="text-lg">Hours</p>
+                    <span class=" text-3xl font-bold">23</span>
+                </div>
+                <span class="font-bold text-4xl text-red-500"> : </span>
+                <div>
+                    <p class="text-lg">Minutes</p>
+                    <span class=" text-3xl font-bold">45</span>
+                </div>
+                <span class="font-bold text-4xl text-red-500"> : </span>
+                <div>
+                    <p class="text-lg">Seconds</p>
+                    <span class=" text-3xl font-bold">30</span>
+                </div>
+
+            </div>
+
+
+            <div class="flex gap-2">
+                <button class="flash-prev w-9 h-9 rounded-full text-xl bg-slate-100 flex items-center justify-center">
+                    ‹
+                </button>
+                <button class="flash-next w-9 h-9 rounded-full text-xl bg-slate-100 flex items-center justify-center">
+                    ›
+                </button>
+            </div>
+        </div>
+
+        <div class="relative overflow-x-auto overflow-y-hidden scrollbar-hide">
+            <div class="flex gap-6 pb-4 w-max">
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="HAVIT HV-G92 Gamepad"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span
+                            class="absolute top-3 left-3 bg-red-500 text-white text-sm font-semibold px-3 py-1 rounded">-40%</span>
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">TACTX TV-S92 Shoes</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$120</span>
+                        <span class="text-gray-400 text-sm line-through">$160</span>
+                    </div>
+                    <div class="flex items-center gap-2 mt-1">
+                        <div class="flex text-yellow-600 text-sm">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(88)</span>
+                    </div>
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1552879948-16c32e175ae5?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="AK-900 Wired Keyboard"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span
+                            class="absolute top-3 left-3 bg-red-500 text-white text-sm font-semibold px-3 py-1 rounded">-35%</span>
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">AK-900 Wired Drink</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$960</span>
+                        <span class="text-gray-400 text-sm line-through">$1160</span>
+                    </div>
+                    <div class="flex items-center gap-2 mt-1">
+                        <div class="flex text-yellow-600 text-sm">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(78)</span>
+                    </div>
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="IPS LCD Gaming Monitor"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span
+                            class="absolute top-3 left-3 bg-red-500 text-white text-sm font-semibold px-3 py-1 rounded">-30%</span>
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">IPS HBK Girl shoes</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$370</span>
+                        <span class="text-gray-400 text-sm line-through">$400</span>
+                    </div>
+                    <div class="flex items-center gap-2 mt-1">
+                        <div class="flex text-yellow-600 text-sm">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(99)</span>
+                    </div>
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1622711321771-4a00d2bc0350?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="S-Series Comfort Chair"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span
+                            class="absolute top-3 left-3 bg-red-500 text-white text-sm font-semibold px-3 py-1 rounded">-25%</span>
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">S-Series Milk Fruit</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$375</span>
+                        <span class="text-gray-400 text-sm line-through">$400</span>
+                    </div>
+                    <div class="flex items-center gap-2 mt-1">
+                        <div class="flex text-yellow-600 text-sm">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(99)</span>
+                    </div>
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1630552352899-0ff485109562?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="S-Series Comfort Chair"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span
+                            class="absolute top-3 left-3 bg-red-500 text-white text-sm font-semibold px-3 py-1 rounded">-25%</span>
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">D-Series Hair Shampo</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$375</span>
+                        <span class="text-gray-400 text-sm line-through">$400</span>
+                    </div>
+                    <div class="flex items-center gap-2 mt-1">
+                        <div class="flex text-yellow-600 text-sm">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(99)</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="flex justify-center my-10">
+            <button
+                class="bg-red-500 hover:bg-red-600 text-white font-medium px-12 py-3 rounded-md transition-colors duration-200">
+                View All Products
+            </button>
+        </div>
+        <hr>
+    </section>
+
+    <!-- Category  -->
+    <section class="max-w-[1188px] mx-auto px-4 mt-[70px]">
+        <p class="text-red-500 text-lg font-semibold">
+            <span class="bg-red-500 px-1">|</span>
+            Categories
+        </p>
+        <div class="flex items-center justify-between mb-6">
+            <div>
+
+                <h2 class="text-3xl font-semibold mt-3 text-shadow text-shadow-black-900/90">Browse By Category</h2>
+            </div>
+
+            <div class="flex gap-2">
+                <button class="flash-prev w-9 h-9 rounded-full text-xl bg-slate-100 flex items-center justify-center">
+                    ‹
+                </button>
+                <button class="flash-next w-9 h-9 rounded-full text-xl bg-slate-100 flex items-center justify-center">
+                    ›
+                </button>
+            </div>
+        </div>
+
+        <div class="relative overflow-x-auto overflow-y-hidden mb-10 scrollbar-hide">
+            <div class="flex gap-6 pb-4 w-max">
+
+                <div
+                    class="w-[170px] h-[145px] border rounded flex justify-center flex-col items-center group flex-shrink-0">
+                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3891_3419)">
+                            <path
+                                d="M38.9375 6.125H17.0625C15.5523 6.125 14.3281 7.34922 14.3281 8.85938V47.1406C14.3281 48.6508 15.5523 49.875 17.0625 49.875H38.9375C40.4477 49.875 41.6719 48.6508 41.6719 47.1406V8.85938C41.6719 7.34922 40.4477 6.125 38.9375 6.125Z"
+                                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M25.6667 7H31.1354" stroke="black" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M28 44.0052V44.0305" stroke="black" stroke-width="2.5" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <line x1="15.1667" y1="39.8334" x2="40.8333" y2="39.8334" stroke="black" stroke-width="2" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_3891_3419">
+                                <rect width="56" height="56" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+
+                    <span>Phones</span>
+                </div>
+
+                <div
+                    class="w-[170px] h-[145px] border rounded flex justify-center flex-col items-center group flex-shrink-0">
+                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3891_3134)">
+                            <path
+                                d="M46.6667 9.33337H9.33333C8.04467 9.33337 7 10.378 7 11.6667V35C7 36.2887 8.04467 37.3334 9.33333 37.3334H46.6667C47.9553 37.3334 49 36.2887 49 35V11.6667C49 10.378 47.9553 9.33337 46.6667 9.33337Z"
+                                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M16.3333 46.6666H39.6667" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M21 37.3334V46.6667" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M35 37.3334V46.6667" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M8 32H48" stroke="black" stroke-width="2" stroke-linecap="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_3891_3134">
+                                <rect width="56" height="56" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span>Computers</span>
+                </div>
+
+                <div
+                    class="w-[170px] h-[145px] border rounded flex justify-center flex-col items-center group flex-shrink-0">
+                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3891_2024)">
+                            <path
+                                d="M35 14H21C17.134 14 14 17.134 14 21V35C14 38.866 17.134 42 21 42H35C38.866 42 42 38.866 42 35V21C42 17.134 38.866 14 35 14Z"
+                                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M21 42V49H35V42" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M21 14V7H35V14" stroke="black" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <line x1="24" y1="23" x2="24" y2="34" stroke="black" stroke-width="2"
+                                stroke-linecap="round" />
+                            <line x1="28" y1="28" x2="28" y2="34" stroke="black" stroke-width="2"
+                                stroke-linecap="round" />
+                            <line x1="32" y1="26" x2="32" y2="34" stroke="black" stroke-width="2"
+                                stroke-linecap="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_3891_2024">
+                                <rect width="56" height="56" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span>
+                        Smartwatch
+                    </span>
+                </div>
+
+                <div
+                    class="w-[170px] h-[145px] bg-red-500 text-white border rounded flex justify-center flex-col items-center group flex-shrink-0">
+                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3891_2336)">
+                            <path
+                                d="M11.6667 16.3334H14C15.2377 16.3334 16.4247 15.8417 17.2998 14.9665C18.175 14.0914 18.6667 12.9044 18.6667 11.6667C18.6667 11.0479 18.9125 10.4544 19.3501 10.0168C19.7877 9.57921 20.3812 9.33337 21 9.33337H35C35.6188 9.33337 36.2123 9.57921 36.6499 10.0168C37.0875 10.4544 37.3333 11.0479 37.3333 11.6667C37.3333 12.9044 37.825 14.0914 38.7002 14.9665C39.5753 15.8417 40.7623 16.3334 42 16.3334H44.3333C45.571 16.3334 46.758 16.825 47.6332 17.7002C48.5083 18.5754 49 19.7624 49 21V42C49 43.2377 48.5083 44.4247 47.6332 45.2999C46.758 46.175 45.571 46.6667 44.3333 46.6667H11.6667C10.429 46.6667 9.242 46.175 8.36683 45.2999C7.49167 44.4247 7 43.2377 7 42V21C7 19.7624 7.49167 18.5754 8.36683 17.7002C9.242 16.825 10.429 16.3334 11.6667 16.3334"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M28 37.3334C31.866 37.3334 35 34.1994 35 30.3334C35 26.4674 31.866 23.3334 28 23.3334C24.134 23.3334 21 26.4674 21 30.3334C21 34.1994 24.134 37.3334 28 37.3334Z"
+                                stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_3891_2336">
+                                <rect width="56" height="56" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span>Camera</span>
+                </div>
+
+                <div
+                    class="w-[170px] h-[145px] border rounded flex justify-center flex-col items-center group flex-shrink-0">
+                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3891_2884)">
+                            <path
+                                d="M16.3333 30.3334H14C11.4227 30.3334 9.33331 32.4227 9.33331 35V42C9.33331 44.5774 11.4227 46.6667 14 46.6667H16.3333C18.9106 46.6667 21 44.5774 21 42V35C21 32.4227 18.9106 30.3334 16.3333 30.3334Z"
+                                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M42 30.3334H39.6667C37.0893 30.3334 35 32.4227 35 35V42C35 44.5774 37.0893 46.6667 39.6667 46.6667H42C44.5773 46.6667 46.6667 44.5774 46.6667 42V35C46.6667 32.4227 44.5773 30.3334 42 30.3334Z"
+                                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M9.33331 35V28C9.33331 23.0493 11.3 18.3014 14.8007 14.8007C18.3013 11.3 23.0493 9.33337 28 9.33337C32.9507 9.33337 37.6986 11.3 41.1993 14.8007C44.7 18.3014 46.6666 23.0493 46.6666 28V35"
+                                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_3891_2884">
+                                <rect width="56" height="56" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span>Headphone</span>
+                </div>
+
+                <div
+                    class="w-[170px] h-[145px] border rounded flex justify-center flex-col items-center group flex-shrink-0">
+                    <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_3891_264)">
+                            <path
+                                d="M46.6666 14H9.33329C6.75596 14 4.66663 16.0893 4.66663 18.6667V37.3333C4.66663 39.9107 6.75596 42 9.33329 42H46.6666C49.244 42 51.3333 39.9107 51.3333 37.3333V18.6667C51.3333 16.0893 49.244 14 46.6666 14Z"
+                                stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M14 28H23.3333M18.6667 23.3334V32.6667" stroke="black" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M35 25.6666V25.6908" stroke="black" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                            <path d="M42 30.3333V30.3574" stroke="black" stroke-width="3" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_3891_264">
+                                <rect width="56" height="56" fill="white" />
+                            </clipPath>
+                        </defs>
+                    </svg>
+                    <span>Gaming</span>
+                </div>
+
+
+
+            </div>
+        </div>
+        <hr>
+    </section>
+
+
+    <!-- Best Selling -->
+    <section class="max-w-[1188px] mx-auto px-4 py-10 mt-[70px]">
+        <p class="text-red-500 text-lg font-semibold">
+            <span class="bg-red-500 px-1">|</span>
+            This Month
+        </p>
+        <div class="flex items-center justify-between mb-6">
+            <div>
+
+                <h2 class="text-3xl font-semibold mt-3 text-shadow text-shadow-black-900/90">Best Selling Products</h2>
+            </div>
+
+            <div class="flex justify-center ">
+                <button
+                    class="bg-red-500 hover:bg-red-600 text-white font-medium px-8 py-2.5 rounded-md transition-colors duration-200">
+                    View All
+                </button>
+            </div>
+        </div>
+
+        <div class="relative overflow-x-auto overflow-y-hidden scrollbar-hide">
+            <div class="flex gap-6 pb-4 w-max">
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="HAVIT HV-G92 Gamepad"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">TACTX TV-S92 Shoes</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$120</span>
+                        <span class="text-gray-400 text-sm line-through">$160</span>
+                    </div>
+                    <div class="flex items-center gap-2 mt-1">
+                        <div class="flex text-yellow-600 text-sm">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(88)</span>
+                    </div>
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1552879948-16c32e175ae5?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="AK-900 Wired Keyboard"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">AK-900 Wired Drink</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$960</span>
+                        <span class="text-gray-400 text-sm line-through">$1160</span>
+                    </div>
+                    <div class="flex items-center gap-2 mt-1">
+                        <div class="flex text-yellow-600 text-sm">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(78)</span>
+                    </div>
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="IPS LCD Gaming Monitor"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">IPS HBK Girl shoes</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$370</span>
+                        <span class="text-gray-400 text-sm line-through">$400</span>
+                    </div>
+                    <div class="flex items-center gap-2 mt-1">
+                        <div class="flex text-yellow-600 text-sm">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(99)</span>
+                    </div>
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1622711321771-4a00d2bc0350?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="S-Series Comfort Chair"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">S-Series Milk Fruit</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$375</span>
+                        <span class="text-gray-400 text-sm line-through">$400</span>
+                    </div>
+                    <div class="flex items-center gap-2 mt-1">
+                        <div class="flex text-yellow-600 text-sm">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(99)</span>
+                    </div>
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1630552352899-0ff485109562?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="S-Series Comfort Chair"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">D-Series Hair Shampo</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$375</span>
+                        <span class="text-gray-400 text-sm line-through">$400</span>
+                    </div>
+                    <div class="flex items-center gap-2 mt-1">
+                        <div class="flex text-yellow-600 text-sm">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(99)</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Baner  -->
+    <section class="max-w-[1188px] mx-auto bg-black rounded-lg overflow-hidden mt-10">
+        <div class="px-6 lg:px-12 py-12 md:py-10">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-10">
+
+                <div class="flex-1 text-white space-y-4 md:space-y-6">
+                    <span class="text-sm font-medium text-green-400 tracking-widest uppercase">Categories</span>
+
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-semibold leading-tight">
+                        Enhance Your <br />
+                        <span class="text-white">Music Experience</span>
+                    </h2>
+
+                    <div class="flex items-center gap-4 md:gap-6 pt-2">
+                        <div
+                            class="flex flex-col justify-center items-center bg-white rounded-full text-black w-[62px] h-[62px]">
+                            <span class="text-xl  font-bold">23</span>
+                            <span class="text-[10px] -mt-1 text-black uppercase tracking-wider">Days</span>
+                        </div>
+                        <div
+                            class="flex flex-col justify-center items-center bg-white rounded-full text-black w-[62px] h-[62px]">
+                            <span class="text-xl font-bold">05</span>
+                            <span class="text-[10px] -mt-1 text-black uppercase tracking-wider">Hours</span>
+                        </div>
+                        <div
+                            class="flex flex-col justify-center items-center bg-white rounded-full text-black w-[62px] h-[62px]">
+                            <span class="text-xl font-bold">59</span>
+                            <span class="text-[10px] -mt-1 text-black uppercase tracking-wider">Minutes</span>
+                        </div>
+                        <div
+                            class="flex flex-col justify-center items-center bg-white rounded-full text-black w-[62px] h-[62px]">
+                            <span class="text-xl font-bold">35</span>
+                            <span class="text-[10px] -mt-1 text-black uppercase tracking-wider">Seconds</span>
+                        </div>
+                    </div>
+
+                    <button
+                        class="mt-4 bg-green-500 hover:bg-green-600 text-white font-semibold px-8 py-3 rounded-md transition-colors duration-200">
+                        Buy Now!
+                    </button>
+                </div>
+
+                <div class="max-md:hidden flex-1 flex justify-center md:justify-end relative">
+                    <div class="relative">
+                        <div class="absolute inset-0 bg-white/30 blur-3xl rounded-full scale-110"></div>
+                        <img src="/images/speaker.png" alt="Music Experience"
+                            class="relative z-10 w-auto h-[330px] max-w-[450px] md:max-w-[500px] h-auto object-contain drop-shadow-xl" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Explore Products  -->
+    <section class="max-w-[1188px] mx-auto px-4 pt-10 mt-[70px]">
+        <p class="text-red-500 text-lg font-semibold">
+            <span class="bg-red-500 px-1">|</span>
+            Our Products
+        </p>
+        <div class="flex items-center justify-between mb-6">
+            <div>
+
+                <h2 class="text-3xl font-semibold mt-3 text-shadow text-shadow-black-900/90">Explore Our Products</h2>
+            </div>
+
+            <div class="flex gap-2">
+                <button class="flash-prev w-9 h-9 rounded-full text-xl bg-slate-100 flex items-center justify-center">
+                    ‹
+                </button>
+                <button class="flash-next w-9 h-9 rounded-full text-xl bg-slate-100 flex items-center justify-center">
+                    ›
+                </button>
+            </div>
+        </div>
+
+        <div class="relative overflow-x-auto overflow-y-hidden scrollbar-hide">
+            <div class="flex gap-6 pb-4 w-max">
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="HAVIT HV-G92 Gamepad"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">TACTX TV-S92 Shoes</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$120</span>
+                        <div class="flex text-yellow-600 text-lf">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(88)</span>
+                    </div>
+
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1552879948-16c32e175ae5?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="AK-900 Wired Keyboard"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">AK-900 Wired Drink</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$960</span>
+                        <div class="flex text-yellow-600 text-lg">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(78)</span>
+                    </div>
+
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="IPS LCD Gaming Monitor"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">IPS HBK Girl shoes</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$370</span>
+                        <div class="flex text-yellow-600 text-lg">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(99)</span>
+                    </div>
+
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1622711321771-4a00d2bc0350?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="S-Series Comfort Chair"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">S-Series Milk Fruit</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$375</span>
+                        <div class="flex text-yellow-600 text-lg">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(99)</span>
+                    </div>
+
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1630552352899-0ff485109562?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="S-Series Comfort Chair"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">D-Series Hair Shampo</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$375</span>
+                        <div class="flex text-yellow-600 text-lg">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(99)</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="relative overflow-x-auto overflow-y-hidden scrollbar-hide mt-[50px]">
+            <div class="flex gap-6 pb-4 w-max">
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="HAVIT HV-G92 Gamepad"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span
+                            class="absolute top-3 left-3 bg-green-700 text-white text-sm font-semibold px-3 py-1 rounded">NEW</span>
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">TACTX TV-S92 Shoes</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$120</span>
+                        <div class="flex text-yellow-600 text-lg">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(88)</span>
+                    </div>
+
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1552879948-16c32e175ae5?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="AK-900 Wired Keyboard"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">AK-900 Wired Drink</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$960</span>
+                        <div class="flex text-yellow-600 text-lg">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(78)</span>
+                    </div>
+
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="IPS LCD Gaming Monitor"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span
+                            class="absolute top-3 left-3 bg-green-700 text-white text-sm font-semibold px-3 py-1 rounded">NEW</span>
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">IPS HBK Girl shoes</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$370</span>
+                        <div class="flex text-yellow-600 text-lg">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(99)</span>
+                    </div>
+
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1622711321771-4a00d2bc0350?q=80&w=464&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="S-Series Comfort Chair"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">S-Series Milk Fruit</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$375</span>
+                        <div class="flex text-yellow-600 text-lg">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(99)</span>
+                    </div>
+
+                </div>
+
+                <div class="w-[270px] group flex-shrink-0">
+                    <div class="relative bg-gray-100 rounded-lg overflow-hidden group">
+                        <img src="https://images.unsplash.com/photo-1630552352899-0ff485109562?q=80&w=465&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="S-Series Comfort Chair"
+                            class="w-full h-[250px] object-cover group-hover:scale-105 transition-transform duration-300" />
+                        <span class="absolute top-3 right-3 text-sm"><img src="icons/love.svg"></span>
+                        <span class="absolute top-14 right-3 text-sm"><img src="icons/eye.svg"></span>
+                        <button
+                            class="hidden absolute bottom-0 bg-black/90 text-[14px] text-white py-3  w-[100%] text-sm group-hover:block">Add
+                            to Cart</button>
+                    </div>
+                    <h3 class="mt-4 font-semibold text-gray-800 text-sm">D-Series Hair Shampo</h3>
+                    <div class="flex items-center gap-2 mt-1">
+                        <span class="text-red-500 font-semibold">$375</span>
+                        <div class="flex text-yellow-600 text-lg">★★★★☆</div>
+                        <span class="text-gray-400 text-sm">(99)</span>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="flex justify-center my-10">
+            <button
+                class="bg-red-500 hover:bg-red-600 text-white font-medium px-12 py-3 rounded-md transition-colors duration-200">
+                View All Products
+            </button>
+        </div>
+
+    </section>
+
+
+    <!-- Arrivals  -->
+    <section class="max-w-[1188px] mx-auto px-4 pb-[10rem] md:pb-[2.5rem]  pt-5 mt-[70px]">
+        <p class="text-red-500 text-lg font-semibold">
+            <span class="bg-red-500 px-1">|</span>
+            Featured
+        </p>
+        <div class="flex items-center justify-between mb-6">
+            <div>
+
+                <h2 class="text-3xl font-semibold mt-3 text-shadow text-shadow-black-900/90">New Arrival</h2>
+            </div>
+
+        </div>
+
+        <div class="grid grid-cols-12 gap-6">
+
+            <div class="relative flex max-h-[600px] col-span-12  md:col-span-6 bg-black text-white">
+                <img src="images/loud-speakers.png" class="">
+                <div class="absolute bottom-6 left-5 z-5">
+                    <h1 class="text-2xl ">PlayStation 5</h1>
+                    <p class="text-[16px] text-slate-300 mt-4">Black and white version of the PS5 <br /> coming out on
+                        sale</p>
+                    <button class="text-white mt-5 border-b w-fit border-gray-300">
+                        Shop Now
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-span-12 md:col-span-6 space-y-6">
+
+                <div
+                    class="relative bg-black h-[250px] flex justify-end rounded-md  border border-gray-100 hover:shadow-xl transition-shadow duration-300">
+                    <img src="images/girl.jpg" class="h-full ">
+                    <div class="absolute bottom-6 left-5 z-5">
+                        <h1 class="text-2xl text-white">Women’s Collections</h1>
+                        <p class="text-[16px] text-slate-300 mt-4">Featured woman collections that <br> give you another
+                            vibe.</p>
+                        <button class="text-white mt-5 border-b w-fit border-gray-300">
+                            Shop Now
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class=" h-[250px] grid grid-cols-12 gap-6">
+
+                    <div class="relative col-span-12 sm:col-span-6 bg-black flex justify-center items-center  rounded-md">
+                        <img src="images/bag-speakers.png" class="w-[200px]">
+                        <div class="absolute bottom-6 left-5 z-5">
+                            <h1 class="text-2xl text-white">Speakers</h1>
+                            <p class="text-[14px] text-slate-200 mt-3">Amazon wireless speakers</p>
+                            <button class="text-white mt-5 border-b w-fit border-gray-300">
+                                Shop Now
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="relative col-span-12 sm:col-span-6 bg-black flex justify-center items-center  rounded-md">
+                        <img src="images/perfume.png" class="w-[200px]">
+                        <div class="absolute bottom-6 left-5 z-5">
+                            <h1 class="text-2xl text-white">Perfume</h1>
+                            <p class="text-[14px] text-slate-200 mt-3">Gucci intense oud edp</p>
+                            <button class="text-white mt-5 border-b w-fit border-gray-300">
+                                Shop Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
 
     <!-- footer  -->
     <div id="target-footer"></div>
     <script src="js/global.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
     <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('.splide', {
+                type: 'loop',
+                autoplay: true,
+                interval: 4000,
+                pauseOnHover: true,
+                arrows: true,
+                pagination: true,
+            }).mount();
+        });
         fetch('components/navbar.html')
             .then(response => response.text())
             .then(data => {
@@ -29,6 +1045,10 @@
         fetch('components/footer.html').then(response => response.text()).then(data => {
             document.getElementById('target-footer').innerHTML = data;
         })
+
+
+
+
     </script>
 </body>
 
