@@ -55,18 +55,15 @@
     border-bottom: 1px solid #cec3c3ab;
     padding-bottom: 6px;
 }
-.login{
-    display: flex;
-    gap: 80px;
-}
 
 .form button {
-    width: 130px;
+    width: 100%;
     padding: 14px;
     border-radius: 4px;
     font-size: 0.95rem;
     font-weight: 500;
     cursor: pointer;
+    transition: opacity 0.2s;
 }
 
 .form button:first-of-type {
@@ -74,10 +71,33 @@
     color: #ffffff;
     border: none;
     margin-top: 10px;
-    font-size: smaller;
 }
-.login a{
-    margin-top: 25px;
-    font-size: small;
-    color: #db4444;
+
+.form button:nth-of-type(2) {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form button img {
+    width: 18px;
+    height: 18px;
+}
+
+.form p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.form p a {
+    color: #000000;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 8px;
 }
